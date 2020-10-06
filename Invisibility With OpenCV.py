@@ -30,13 +30,13 @@ while webcam.isOpened():
     if not successful_frame:
         break
 
-    
+    # Flipping the frames, images to like as we see in the mirror as by default it is flipped
     frame = np.flip(frame, axis=1)
 
     hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
     # value = (35, 35)
 
-    blur = cv2.GaussianBlur(hsv, (35, 35), 0)
+    #blur = cv2.GaussianBlur(hsv, (35, 35), 0)
 
     # Defining lower range for red color detection.
     lower_red = np.array([0, 120, 70])
