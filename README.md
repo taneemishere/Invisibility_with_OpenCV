@@ -6,3 +6,6 @@ someone during the live webcam stream.
 - OpenCV
 - Numpy
 
+## The Code Flow
+
+- Import some of the libraries we need for this script
