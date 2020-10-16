@@ -9,3 +9,6 @@ someone during the live webcam stream.
 ## The Code Flow
 
 - Import some of the libraries we need for this script
+- Capture the webcam with OpenCV
+- Iterate 30 times capturing from webcam as we'll have a static background
+- If something unknown happens, break out of the loop
