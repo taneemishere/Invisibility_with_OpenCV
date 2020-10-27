@@ -13,3 +13,6 @@ someone during the live webcam stream.
 - Iterate 30 times capturing from webcam as we'll have a static background
 - If something unknown happens, break out of the loop
 - Flip the image, as to see how we see our image in the mirror
+- Now iterate until the webcam is not closed
+- First while catching the stream, if there is something wrong we should break out
+- Same thing, flip the frames as we see in the mirror
